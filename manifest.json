@@ -1,0 +1,35 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Have you ever wanted more wells in your MC world? Whatever is the answer, here you have an add-on right for that! §1Made by PavelDobCZ23",
+        "name": "More Wells Add-on",
+        "uuid": "5e6a282f-1749-449e-aad5-46f9c06fffbd",
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 16, 100 ]
+    },
+    "modules": [
+        {
+            "description": "Have you ever wanted more wells in your MC world? Whatever is the answer, here you have an add-on right for that! §1Made by PavelDobCZ23",
+            "type": "data",
+            "uuid": "df3269ba-d3a8-48ce-ab54-755ca958935f",
+            "version": [1, 0, 0]
+        }
+    ],
+    "subpacks": [
+        {
+            "folder_name": "wells_everywhere",
+             "name": "Chance - §b§k_§r§eWells everywhere§c!§d§k_",
+             "memory_tier": 0
+        },
+        {
+             "folder_name": "higher_chance",
+             "name": "Chance - §a1/166 (3x higher)",
+             "memory_tier": 1
+        },
+        {
+            "folder_name": "normal_chance",
+            "name": "Chance - §41/500 (default)",
+            "memory_tier": 2
+       }
+   ]
+}
